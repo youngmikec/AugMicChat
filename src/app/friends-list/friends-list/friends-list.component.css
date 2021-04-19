@@ -1,0 +1,33 @@
+.a-friend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    cursor: pointer;
+    width: max-content;
+    margin: 2rem 0.5rem;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.a-friend:hover {
+    transform: scale(1.05);
+    padding-left: 25px;
+}
+
+hr {
+    margin-left: -35%;
+    color: rgb(138, 138, 255);
+    opacity: 0.4;
+}
+
+img {
+    border-radius: 50%;
+    margin-left: -40px;
+    margin-right: 10px;
+}
+
+.friends-name {
+    font-weight: bold;
+    color: rgb(17, 17, 39);
+}

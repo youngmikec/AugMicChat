@@ -1,0 +1,32 @@
+<div class="friend-activity">
+    <input type="radio" name="myradio" id="radio_detail" style="display: none;">
+    
+    <div class="friend-chat">
+        <nav>
+            <h5 class="friend-name">{{ friend.name }}</h5>
+            <ul class="nav-list">
+                
+                <a><label class="list-item" id="label_chat"><i class="fa fa-phone"></i></label></a>
+                
+                <a><label for="radio_detail" class="list-item" id="label_detail"><i class="fa fa-info-circle"></i></label></a>
+            </ul>
+        </nav><hr>
+
+        <div class="messages" id="messages">
+            <friend-chat [friendMessages] = friend.friendChats></friend-chat>
+
+            <user-chat [userMessages] = friend.userChats></user-chat>
+        </div>
+
+        <div class="typing-area">
+            <form #message = "ngForm" (ngSubmit) = "sendMessage(message.value)">
+                <input (ngModel)="chat" name = "chat" id="textArea" type="text" class="typing-box" placeholder="Message {{ friend.name }}">
+                <button class="send-button"><i class="fa fa-send"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="friend-details">
+        <friend-details [friend] = friend class="details"></friend-details>
+    </div>
+</div>

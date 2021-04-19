@@ -1,0 +1,112 @@
+.friend-activity {
+    display: flex;
+    margin: auto;
+    padding: 20%;
+    margin-top: -13%;
+    margin-left: 3%;
+    width: 117.1%;
+    height: 90vh;
+    /* background: url(../../assets/wallpaper.jpeg)center center/cover; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr {
+    opacity: 0.4;
+}
+
+a .list-item i {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.3rem;
+    cursor: pointer;
+    color: black;
+    transition: all 0.5s ease;
+    opacity: 0.8;
+}
+
+a .list-item:hover i {
+    transform: scale(1.5);
+}
+
+.list-item {
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.send-button {
+    position: absolute;
+    margin: 8px;
+    margin-top: 18px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    width: 8%;
+    height: 8%;
+    background: rgb(6, 6, 29);
+    color: white;
+    border: thin solid rgb(99, 99, 255);
+    border-radius: 25px;
+    box-shadow: 0 0.25rem 0.25rem rgba(11, 11, 139, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+
+.send-button:hover {
+    transform: scale(1.1);
+}
+
+.messages {
+    height: 57vh;
+    padding: 3px;
+    overflow: auto;
+}
+
+.typing-area {
+    margin-top: 4px;
+    padding: 4px;
+    height: 8%;
+}
+
+.typing-box {
+    width: 85%;
+    resize: none;
+    padding: 10px;
+    padding-bottom: 5%;
+    background: transparent;
+    border-radius: 10px;
+    border: thin solid rgb(99, 99, 255);
+    box-shadow: 0 0.25rem 0.25rem rgba(11, 11, 139, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.message-box {
+    margin-top: 10px;
+}
+
+.friend-chat{
+    flex: 5;
+    transition: all 1s ease;
+}
+
+.friend-details {
+    box-shadow: 0 0 2.5em rgba(85, 85, 85, 0.5); 
+    margin-top: -35px;   
+    height: 88vh;
+    width: 400px;
+    position: absolute;
+    right: -550px;
+    transition: all 1s ease;
+}
+
+#radio_detail:checked ~ .friend-details {
+    right: 2px;
+    width: 400px;
+}
+
+#radio_detail:checked ~ .friend-chat {
+    margin-right: 45%;
+}

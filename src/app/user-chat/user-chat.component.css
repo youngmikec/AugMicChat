@@ -1,0 +1,24 @@
+.my-message-box {
+    text-align: right;
+    background: white;
+}
+
+.message {
+    max-width: 70%;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.my-message{
+    float: right;
+    background: navy;
+    color: white;
+    margin-right: 8%;
+}
+
+.seperator {
+    width: 100%;
+    height: 8px;
+    float: left;
+}

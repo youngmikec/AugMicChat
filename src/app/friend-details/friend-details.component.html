@@ -1,0 +1,46 @@
+<div class="friend-detail"> 
+    <nav>
+        <div class="detail">
+            <div class="name">Details</div><span class="friendName">{{ friend.name }}</span>
+        </div>
+        <label for="radio" class="cancel" id="label_chat"><i class="fa fa-times"></i></label>
+    </nav>
+    <hr>
+
+    <div class="basic-info">
+        <img [src]="[friend.profilePic]" alt="" height="120px" width="128px">
+        <h5 class="friend-name">{{ friend.name }}</h5>
+        <h5 class="email">{{ friend.email }}</h5>
+        <div class="row icons">
+            <div class="col-md-4">
+                <i class="fa fa-search"></i>
+                <p>find</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-phone"></i>
+                <p>call</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-ellipsis-v"></i>
+                <p>more</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="extra">
+            <div class="extra-div">
+                <span class="extras">About</span>
+                <i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="extra-div">
+                <span class="extras">Pinned</span>
+                <i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="extra-div">
+                <span class="extras">Files</span>
+                <i class="fa fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="radio" name="myradio" id="radio">

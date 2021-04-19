@@ -1,0 +1,23 @@
+.welcome-wrapper {
+    max-width: 1200;
+    margin: auto;
+    padding: 20%;
+    padding-left: 25%;
+    align-items: center;
+    text-align: center;
+    font-family: Maiandra GD;
+    font-size: 25px;
+    background-color: white;
+    margin-top: -10%;
+}
+
+.name {
+    font-family: Gabriola; 
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(6, 6, 83);
+}
+
+img {
+    margin-bottom: 8%;
+}
