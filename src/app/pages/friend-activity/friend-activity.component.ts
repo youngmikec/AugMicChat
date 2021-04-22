@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { FriendsListService } from '../services/friends-list.service';
+import { FriendsListService } from '../../services/friends-list.service';
 
 @Component({
   selector: 'friend-activity',

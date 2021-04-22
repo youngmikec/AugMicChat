@@ -7,14 +7,14 @@ import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { FriendsListComponent } from './friends-list/friends-list/friends-list.component';
-import { NavLeftComponent } from './nav-left/nav-left.component';
-import { NavTopComponent } from './nav-top/nav-top.component';
+import { NavLeftComponent } from './components/nav-left/nav-left.component';
+import { NavTopComponent } from './components/nav-top/nav-top.component';
 import { FriendsListService } from './services/friends-list.service';
-import { WelcomePageComponent } from './welcome-page/welcome-page.component';
-import { FriendActivityComponent } from './friend-activity/friend-activity.component';
+import { WelcomePageComponent } from './pages/welcome-page/welcome-page.component';
+import { FriendActivityComponent } from './pages/friend-activity/friend-activity.component';
 import { UserChatComponent } from './user-chat/user-chat.component';
-import { FriendChatComponent } from './friend-chat/friend-chat.component';
-import { FriendDetailsComponent } from './friend-details/friend-details.component';
+import { FriendChatComponent } from './pages/friend-chat/friend-chat.component';
+import { FriendDetailsComponent } from './pages/friend-details/friend-details.component';
 
 
 
